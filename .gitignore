@@ -1,6 +1,7 @@
 # Upload ONLY the project files. Everything else is ignored.
 *
-
+!Week */*
+!Week */LAB/
 !.gitignore
 !README.md
 !requirements.txt
@@ -23,6 +24,7 @@
 
 !.streamlit/
 !.streamlit/secrets.toml.example
+!.ipynb_checkpoints/
 
 # Never commit these
 __pycache__/
@@ -30,7 +32,6 @@ __pycache__/
 .venv/
 .streamlit/secrets.toml
 .DS_Store
-.ipynb_checkpoints/
 .pytest_cache/
 .DS_Store
 .env
