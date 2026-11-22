@@ -1,31 +1,3 @@
-# Upload ONLY the project files. Everything else is ignored.
-*
-!Week */*
-!Week */LAB/
-!.gitignore
-!README.md
-!requirements.txt
-!main.py
-!fetch_data.py
-!load_data.py
-!auth.py
-
-!DATA/
-!DATA/raw.csv
-
-!app_model/
-!app_model/*.py
-
-!pages/
-!pages/*.py
-
-!tests/
-!tests/*.py
-
-!.streamlit/
-!.streamlit/secrets.toml.example
-!.ipynb_checkpoints/
-
 # Never commit these
 __pycache__/
 *.pyc
